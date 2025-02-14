@@ -50,7 +50,7 @@ img {
 }
 .portada{
     height: auto;
-    width: 26%;
+    width: 20vw;
 }
 .resumenn{
     display: flex;
@@ -59,7 +59,7 @@ img {
 
 }
 .cvsc{
-    width: 250px;
+    width: 13vw;
    height: auto;
    border-radius: 5px;
 }
@@ -81,7 +81,7 @@ footer{
 }
 .logo_rangos{
     height: auto;
-    width: 50%;
+    width: 40vw;
 }
 .container1{
     width: 80%;
@@ -227,4 +227,7 @@ margin-bottom: 54px;
     height: auto;
     margin-right: -5%;
     margin-left: -5%;
+}
+.tamaño{
+    font-size: 1vw;
 }
