@@ -49,8 +49,8 @@ img {
     margin: 10px 0;
 }
 .portada{
-    width: 400px;
     height: auto;
+    width: 45%;
 }
 .resumenn{
     display: flex;
@@ -80,8 +80,8 @@ footer{
     width: 2px;
 }
 .logo_rangos{
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 50%;
 }
 .container1{
     width: 80%;
