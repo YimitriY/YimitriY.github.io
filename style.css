@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background: #e143fb;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 60px 20px 20px;
+}
+h1, h2, h3, p, li {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+h1, h2 {
+    color: #7c536e;
+}
+.agente {
+    background: #292929;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+img {
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+.portada{
+    width: 400px;
+    height: auto;
+}
+.resumenn{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+
+}
+.cvsc{
+    width: 250px;
+   height: auto;
+   border-radius: 5px;
+}
+footer{
+    background-color: #292929;
+    padding: 20px;
+    text-align: left;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #953ca3;
+    border-radius: 20px;
+    height: 100px;
+}
+::-webkit-scrollbar{
+    background-color: #443b3b;
+}
+::-webkit-scrollbar-button{
+    width: 2px;
+}
+.logo_rangos{
+    height: 400px;
+    width: auto;
+}
+.container1{
+    width: 80%;
+    margin: auto;
+    padding: 60px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2; /* Hace que el h1 ocupe dos columnas */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.agente {
+    background: #292929;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    
+    
+
+}
+h1#agentes {
+    text-align: center; 
+    width: 100%; 
+    display: block;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.agentesfoto{
+    height: auto;
+    width:65%;
+    margin-top: -50px;
+    
+}
+.textoagente{
+    font-size:xx-large;
+}
+.textoagente#gekko{
+    color: chartreuse;
+}
+.textoagente#sage{
+    color: aquamarine;
+}
+.textoagente#jett{
+color: aqua;
+}
+.textoagente#phoenix{
+    color: crimson;
+}
+.textoagente#sova{
+    color: blue;
+}
+.textoagente#omen{
+    color: cornflowerblue;
+}
+#logo_pestaña{
+    width: 2px;
+    height: auto;
+}
+#videoContainer {
+    border-radius: 10px;
+    
+}
+
+/* Estilo del video */
+#videoContainer video {
+    
+    border-radius: 10px;
+    height: auto;
+    width: 0%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0px;
+   
+}
+#wing{
+    background: none;
+    border: none;
+    
+}
+:hover#wing{
+    transition: ease;
+    transition: 1s;
+    background-color: #292929;
+    border-radius: 20%;
+}
+.straf{
+    width:30% ;
+    height: auto;
+    margin: 20px;
+    
+}
+.straf2{
+    display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #443b3b;
+        border-radius: 15px;
+        padding: 10px;
+}
+.vandalm{
+    width:20% ;
+    height: auto;
+}
+.ecotext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ecoimg{
+    width:30% ;
+    height: auto;
+    margin: 20px;   
+}
+.himg{
+width:80% ;
+height: auto;
+}
+
+#miVideo2{
+margin-top: -18px;
+margin-bottom: 18px;
+
+}
+#miVideo3{
+margin-top: -36px;
+margin-bottom: 36px;
+
+}
+#miVideo4{
+margin-top: -54px;
+margin-bottom: 54px;
+}

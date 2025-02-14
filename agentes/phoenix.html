@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="https://cmsassets.rgpub.io/sanity/images/dsfx7636/content_organization/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png" sizes="any">
+</head>
+<body class="body_agente">
+    <div class="menu">
+        <a href="../index.html">Resumen</a> 
+        <a href="../index.html#modos">Modos de Juego</a>
+        <a href="../agentes/agentes.html">Agentes</a>
+        <a href="../mecanicas/mecanicas.html">Mecánicas</a>
+    </div>
+    <h1 id="agentes">Phoenix</h1>
+    <div class="container1">
+     
+    </div>
+    <img src="image/phoenix_fondo.png" alt="" class="agentesfoto">
+    <p class="textoagente" id="phoenix">
+        Phoenix proviene del Reino Unido y sus poderes estelares salen a relucir con su estilo de combate, que prende fuego al campo de batalla de forma deslumbrante. No le hacen falta refuerzos; es él quién se lanza al combate y marca el ritmo. </p>
+        <p>HABILIDADES</p>
+        <button id="wing" class="boton"><img src="../agentes/image/hphoenix1.png" alt=""></button>
+        <button id="wing" class="boton2"><img src="../agentes/image/hphoenix2.png" alt=""></button>
+        <button id="wing" class="boton3"><img src="../agentes/image/hphoenix3.png" alt=""></button>
+        <button id="wing" class="boton4"><img src="../agentes/image/hphoenix4.png" alt=""></button>
+     
+        <div class="videosh">
+        <div id="videoContainer">
+            <video muted id="miVideo" autoplay="" data-testid="icon-tab-media" class="sc-f3d622cf-0 eOxAvt sc-77e1a86e-0 hBQzBF" loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/phoenix.mp4" type="video/mp4"></video>   </div>
+        <div id="videoContainer">
+            <video muted id="miVideo2" autoplay="" data-testid="icon-tab-media" class="sc-f3d622cf-0 eOxAvt sc-77e1a86e-0 hBQzBF" loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/phoenix2.mp4" type="video/mp4"></video>
+        </div>
+        <div id="videoContainer">
+            <video muted id="miVideo3" autoplay="" data-testid="icon-tab-media" class="sc-f3d622cf-0 eOxAvt sc-77e1a86e-0 hBQzBF" loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/phoenix3.mp4" type="video/mp4"></video>  </div>
+        <div id="videoContainer">
+            <video muted id="miVideo4" autoplay="" data-testid="icon-tab-media" class="sc-f3d622cf-0 eOxAvt sc-77e1a86e-0 hBQzBF" loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/phoenix4.mp4" type="video/mp4"></video>  </div>
+        <script src="script.js"></script> 
+        <script>
+    document.querySelector(".boton").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "600px"; 
+                    video.style.padding = "20px";
+                    video = video.currentTime = 0;
+                    
+                    video2.style.width = "0px"; 
+                    video2.style.padding = "0px";
+                    video3.style.width = "0px"; 
+                    video3.style.padding = "0px";
+                    video4.style.width = "0px"; 
+                    video4.style.padding = "0px";
+                }
+            });
+        </script>
+        <script>
+            document.querySelector(".boton2").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "0px"; 
+                    video.style.padding = "0px";
+                    video2.style.width = "600px"; 
+                    video2.style.padding = "20px";
+                    video2 = video2.currentTime = 0;
+                    video3.style.width = "0px"; 
+                    video3.style.padding = "0px";
+                    video4.style.width = "0px"; 
+                    video4.style.padding = "0px";
+                }
+            });
+        </script>
+        <script>
+            document.querySelector(".boton3").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "0px";
+                    video.style.padding = "0px";
+                    video2.style.width = "0px"; 
+                    video2.style.padding = "0px";
+                    video3.style.width = "600px";
+                    video3.style.padding = "20px";
+                    video3 = video3.currentTime = 0;
+                    video4.style.width = "0px"; 
+                    video4.style.padding = "0px";
+                }
+            });
+        </script>
+        <script>
+            document.querySelector(".boton4").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "0px"; 
+                    video.style.padding = "0px";
+                    video2.style.width = "0px"; 
+                    video2.style.padding = "0px";
+                    video3.style.width = "0px"; 
+                    video3.style.padding = "0px";
+                    video4.style.width = "600px"; 
+                    video4.style.padding = "20px";
+                    video4 = video4.currentTime = 0;
+                }
+            });
+        </script>
+    </body>
+<footer>
+    CHRISTIAN VINCELLE 4ºD
+    <br>
+    pagina web: digitalización
+    <br>
+    Tema Valorant
+</footer>
+</html>

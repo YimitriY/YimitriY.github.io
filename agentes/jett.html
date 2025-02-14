@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jett</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="https://cmsassets.rgpub.io/sanity/images/dsfx7636/content_organization/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png" sizes="any">
+</head>
+<body class="body_agente">
+    <div class="menu">
+        <a href="../index.html">Resumen</a>
+        <a href="../index.html#modos">Modos de Juego</a>
+        <a href="../agentes/agentes.html">Agentes</a>
+        <a href="../mecanicas/mecanicas.html">Mecánicas</a>
+    </div>
+    <h1 id="agentes">Jett</h1>
+    <div class="container1">
+    
+    </div>
+    <img src="image/jett_fondo.png" alt="" class="agentesfoto">
+    <p class="textoagente" id="jett">
+        Jett viene de Corea del Sur, y su estilo de lucha ágil y evasivo le permite asumir grandes riesgos. Corre y salta de aquí para allá en las refriegas y hace trizas a los enemigos con una rapidez espectacular.    </p>
+        <p>HABILIDADES</p>
+        <button id="wing" class="boton"><img src="../agentes/image/hjett1.png" alt=""></button>
+        <button id="wing" class="boton2"><img src="../agentes/image/hjett2.png" alt=""></button>
+        <button id="wing" class="boton3"><img src="../agentes/image/hjett3.png" alt=""></button>
+        <button id="wing" class="boton4"><img src="../agentes/image/hjett4.png" alt=""></button>
+     
+        <div class="videosh">
+        <div id="videoContainer">
+            <video muted id="miVideo" autoplay=""  loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/jett.mp4" type="video/mp4"></video>   </div>
+        <div id="videoContainer">
+            <video  muted id="miVideo2" autoplay=""  loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/jett2.mp4" type="video/mp4"></video>
+        </div>
+        <div id="videoContainer">
+            <video muted id="miVideo3" autoplay=""  loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/jett3.mp4" type="video/mp4"></video>   </div>
+        <div id="videoContainer">
+            <video muted id="miVideo4" autoplay=""  loop="" playsinline=""><source data-testid="source-video/mp4" src="../image/jett4.mp4" type="video/mp4"></video>  </div>
+        <script src="script.js"></script>
+        <script>
+    document.querySelector(".boton").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px";
+                } else {
+                    video.style.width = "600px";
+                    video.style.padding = "20px";
+                    video = video.currentTime = 0;
+                    video2.style.width = "0px"; 
+                    video2.style.padding = "0px";
+                    video3.style.width = "0px"; 
+                    video3.style.padding = "0px";
+                    video4.style.width = "0px"; 
+                    video4.style.padding = "0px";
+                }
+            });
+        </script>
+        <script>
+            document.querySelector(".boton2").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "0px"; 
+                    video.style.padding = "0px";
+                    video2.style.width = "600px"; 
+                    video2.style.padding = "20px";
+                    video2 = video2.currentTime = 0;
+                    video3.style.width = "0px"; 
+                    video3.style.padding = "0px";
+                    video4.style.width = "0px";
+                    video4.style.padding = "0px";
+                }
+            });
+        </script>
+        <script>
+            document.querySelector(".boton3").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+               
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "0px"; 
+                    video.style.padding = "0px";
+                    video2.style.width = "0px"; 
+                    video2.style.padding = "0px";
+                    video3.style.width = "600px"; 
+                    video3.style.padding = "20px";
+                    video3 = video3.currentTime = 0;
+                    video4.style.width = "0px";
+                    video4.style.padding = "0px";
+                }
+            });
+        </script>
+        <script>
+            document.querySelector(".boton4").addEventListener("click", function() {
+                let video = document.querySelector("#miVideo");
+                let video2 = document.querySelector("#miVideo2")
+                let video3 = document.querySelector("#miVideo3");
+                let video4 = document.querySelector("#miVideo4")
+                
+                if (video.style.width === "300px") {
+                    video.style.width = "600px"; 
+                } else {
+                    video.style.width = "0px"; 
+                    video.style.padding = "0px";
+                    video2.style.width = "0px"; 
+                    video2.style.padding = "0px";
+                    video3.style.width = "0px"; 
+                    video3.style.padding = "0px";
+                    video4.style.width = "600px"; 
+                    video4.style.padding = "20px";
+                    video4 = video4.currentTime = 0;
+                }
+            });
+        </script>
+    </body>
+<footer>
+    CHRISTIAN VINCELLE 4ºD
+    <br>
+    pagina web: digitalización
+    <br>
+    Tema Valorant
+</footer>
+</html>
