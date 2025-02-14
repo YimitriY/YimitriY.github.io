@@ -167,7 +167,7 @@ color: aqua;
     border: none;
     
 }
-:hover#wing{
+:hover.habilidad2{
     transition: ease;
     transition: 1s;
     background-color: #292929;
@@ -221,4 +221,10 @@ margin-bottom: 36px;
 #miVideo4{
 margin-top: -54px;
 margin-bottom: 54px;
+}
+.habilidad2, .boton, .boton2, .boton3, .boton4{
+    width: 20%;
+    height: auto;
+    margin-right: -5%;
+    margin-left: -5%;
 }
